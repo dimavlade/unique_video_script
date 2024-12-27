@@ -13,7 +13,7 @@ def install_moviepy():
 # Установка moviepy, если он еще не установлен
 install_moviepy()
 
-from moviepy.editor import VideoFileClip, vfx
+from moviepy import VideoFileClip, vfx
 
 def adjust_video(input_path, output_path):
     
